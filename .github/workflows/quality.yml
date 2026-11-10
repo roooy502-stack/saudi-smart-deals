@@ -1,0 +1,25 @@
+name: Product data and quality checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_call:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate product JSON
+        run: python scripts/validate_products.py
+      - name: SEO audit
+        run: python scripts/audit_seo.py
+      - name: Broken local links
+        run: python scripts/check_links.py
+      - name: Unit tests
+        run: python -m unittest discover -s tests

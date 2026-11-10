@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0.0",
+  "last_updated": "2026-11-10",
+  "data_status": "DEMO_ONLY",
+  "categories": [
+    {
+      "id": "electronics",
+      "name": "إلكترونيات",
+      "description": "أجهزة وملحقات يومية"
+    },
+    {
+      "id": "home",
+      "name": "المنزل",
+      "description": "حلول عملية للبيت"
+    },
+    {
+      "id": "beauty",
+      "name": "العناية",
+      "description": "منتجات عناية شخصية"
+    },
+    {
+      "id": "travel",
+      "name": "السفر",
+      "description": "أساسيات الرحلات"
+    }
+  ],
+  "products": [
+    {
+      "id": "demo-wireless-headphones",
+      "name": "سماعة لاسلكية — مثال",
+      "store": "متجر تجريبي",
+      "category_id": "electronics",
+      "category_name": "إلكترونيات",
+      "description": "سجل تجريبي لتوضيح شكل بطاقة المنتج. لا يمثل عرضاً حقيقياً.",
+      "price": null,
+      "currency": "SAR",
+      "affiliate_url": "#",
+      "last_checked": null,
+      "demo": true
+    },
+    {
+      "id": "demo-organizer",
+      "name": "منظم مكتب — مثال",
+      "store": "متجر تجريبي",
+      "category_id": "home",
+      "category_name": "المنزل",
+      "description": "بيانات توضيحية فقط. استبدلها بمعلومة مصدرها موثق قبل النشر.",
+      "price": null,
+      "currency": "SAR",
+      "affiliate_url": "#",
+      "last_checked": null,
+      "demo": true
+    },
+    {
+      "id": "demo-travel-bag",
+      "name": "حقيبة سفر — مثال",
+      "store": "متجر تجريبي",
+      "category_id": "travel",
+      "category_name": "السفر",
+      "description": "قالب منتج قابل للتحديث من دون اختراع سعر أو رابط إحالة.",
+      "price": null,
+      "currency": "SAR",
+      "affiliate_url": "#",
+      "last_checked": null,
+      "demo": true
+    }
+  ]
+}
