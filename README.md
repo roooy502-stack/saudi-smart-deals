@@ -20,7 +20,7 @@
 2. ارفع الملفات إلى فرع `main`.
 3. من Settings > Pages اختر **GitHub Actions** كمصدر النشر.
 4. شغّل workflow باسم Deploy to GitHub Pages أو ادفع تعديلاً.
-5. استبدل `YOUR-USERNAME` في `index.html` و`robots.txt` و`sitemap.xml` باسمك الحقيقي، ثم ادفع التعديل.
+5. تم ضبط روابط `index.html` و`robots.txt` و`sitemap.xml` على رابط GitHub Pages الحقيقي.
 
 GitHub Actions ستشغّل التحقق عند كل push، وتدقيق SEO والروابط، وتنشر الموقع، وتنفذ تقرير صيانة أسبوعياً. لا توجد أسرار أو مفاتيح API مطلوبة.
 

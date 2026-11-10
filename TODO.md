@@ -7,6 +7,6 @@
 - [x] إضافة SEO metadata وrobots وsitemap وProduct-ready data structure.
 - [x] إضافة اختبارات Python وفحوص بيانات وروابط وSEO.
 - [x] إضافة GitHub Actions للتنصيب والفحص والنشر والصيانة.
-- [ ] استبدال YOUR-USERNAME باسم حساب GitHub الحقيقي.
+- [x] ضبط روابط GitHub Pages على حساب roooy502-stack.
 - [ ] الحصول على موافقة برنامج إحالة وإضافة روابط وبيانات حقيقية موثقة.
 - [ ] مراجعة سياسة الخصوصية مع مختص وتعبئة البريد الحقيقي.
