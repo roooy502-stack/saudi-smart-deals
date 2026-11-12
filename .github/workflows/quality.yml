@@ -21,5 +21,7 @@ jobs:
         run: python scripts/audit_seo.py
       - name: Broken local links
         run: python scripts/check_links.py
+      - name: Pricing audit
+        run: python scripts/audit_pricing.py
       - name: Unit tests
         run: python -m unittest discover -s tests

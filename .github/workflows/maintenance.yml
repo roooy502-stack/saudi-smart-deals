@@ -24,6 +24,7 @@ jobs:
             python scripts/validate_products.py
             python scripts/audit_seo.py
             python scripts/check_links.py
+            python scripts/audit_pricing.py
             python -m unittest discover -s tests
           } | tee reports/maintenance.txt
       - name: Upload report artifact
