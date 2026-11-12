@@ -5,9 +5,21 @@
   "source_platform": "COD Partner",
   "whatsapp_number": "967736015567",
   "categories": [
-    {"id": "electronics", "name": "إلكترونيات", "description": "ملحقات وأدوات تقنية يومية"},
-    {"id": "home", "name": "المنزل", "description": "حلول عملية للبيت والرحلات"},
-    {"id": "beauty", "name": "العناية", "description": "منتجات عناية وتجميل غير طبية"}
+    {
+      "id": "electronics",
+      "name": "إلكترونيات",
+      "description": "ملحقات وأدوات تقنية يومية"
+    },
+    {
+      "id": "home",
+      "name": "المنزل",
+      "description": "حلول عملية للبيت والرحلات"
+    },
+    {
+      "id": "beauty",
+      "name": "العناية",
+      "description": "منتجات عناية وتجميل غير طبية"
+    }
   ],
   "products": [
     {
@@ -23,10 +35,16 @@
       "affiliate_url": "#",
       "source_url": "https://codpartner.com/affiliate",
       "image_url": "https://cdn.codpartner.com/storage/images/products/1780913842_by_57479_Capturedcran20260608111157_png.webp",
-      "available_countries": ["SA"],
+      "available_countries": [
+        "SA"
+      ],
       "published": false,
       "last_checked": "2026-11-12",
-      "demo": false
+      "demo": false,
+      "product_type": "gadget",
+      "estimated_price_sar": 64.9,
+      "pricing_status": "مقترح؛ يحتاج تأكيد الرسوم الحالية",
+      "pricing_formula": "تكلفة المنتج + رسوم COD Partner + توصيل السعودية + هامش صافي مستهدف 25%"
     },
     {
       "id": "codpartner-magnetic-phone-holder",
@@ -41,10 +59,16 @@
       "affiliate_url": "#",
       "source_url": "https://codpartner.com/affiliate",
       "image_url": "https://cdn.codpartner.com/storage/images/products/1780934074_by_57479_Capturedcran20260608164528_png.webp",
-      "available_countries": ["SA"],
+      "available_countries": [
+        "SA"
+      ],
       "published": false,
       "last_checked": "2026-11-12",
-      "demo": false
+      "demo": false,
+      "product_type": "gadget",
+      "estimated_price_sar": 74.9,
+      "pricing_status": "مقترح؛ يحتاج تأكيد الرسوم الحالية",
+      "pricing_formula": "تكلفة المنتج + رسوم COD Partner + توصيل السعودية + هامش صافي مستهدف 25%"
     },
     {
       "id": "codpartner-electric-hair-brush",
@@ -59,10 +83,17 @@
       "affiliate_url": "#",
       "source_url": "https://codpartner.com/affiliate",
       "image_url": "https://cdn.codpartner.com/storage/images/products/1781605376_by_57479_H95071ceda52a415e9bc2a78f3602abf46_jpg.webp",
-      "available_countries": ["SA", "OM"],
+      "available_countries": [
+        "SA",
+        "OM"
+      ],
       "published": false,
       "last_checked": "2026-11-12",
-      "demo": false
+      "demo": false,
+      "product_type": "cosmetic",
+      "estimated_price_sar": 104.9,
+      "pricing_status": "مقترح؛ يحتاج تأكيد الرسوم الحالية",
+      "pricing_formula": "تكلفة المنتج + رسوم COD Partner + توصيل السعودية + هامش صافي مستهدف 25%"
     },
     {
       "id": "codpartner-head-lamp",
@@ -77,10 +108,17 @@
       "affiliate_url": "#",
       "source_url": "https://codpartner.com/affiliate",
       "image_url": "https://cdn.codpartner.com/storage/images/products/1782831425_by_57479_Screenshot20240319102743_png.webp",
-      "available_countries": ["SA", "OM"],
+      "available_countries": [
+        "SA",
+        "OM"
+      ],
       "published": false,
       "last_checked": "2026-11-12",
-      "demo": false
+      "demo": false,
+      "product_type": "gadget",
+      "estimated_price_sar": 74.9,
+      "pricing_status": "مقترح؛ يحتاج تأكيد الرسوم الحالية",
+      "pricing_formula": "تكلفة المنتج + رسوم COD Partner + توصيل السعودية + هامش صافي مستهدف 25%"
     },
     {
       "id": "codpartner-hair-color-shampoo",
@@ -95,10 +133,35 @@
       "affiliate_url": "#",
       "source_url": "https://codpartner.com/affiliate",
       "image_url": "https://cdn.codpartner.com/storage/images/products/1772614696_by_57479_Screenshot20260304084906_png.webp",
-      "available_countries": ["SA"],
+      "available_countries": [
+        "SA"
+      ],
       "published": false,
       "last_checked": "2026-11-12",
-      "demo": false
+      "demo": false,
+      "product_type": "cosmetic",
+      "estimated_price_sar": 89.9,
+      "pricing_status": "مقترح؛ يحتاج تأكيد الرسوم الحالية",
+      "pricing_formula": "تكلفة المنتج + رسوم COD Partner + توصيل السعودية + هامش صافي مستهدف 25%"
     }
-  ]
+  ],
+  "pricing_assumptions": {
+    "plan": "Free Plan",
+    "exchange_rate_usd_sar": 3.75,
+    "target_net_margin_percent": 25,
+    "ksa_delivered_shipping_usd": 4.99,
+    "cod_fee_percent": 5,
+    "gadget_fees_usd": {
+      "lead": 0.5,
+      "confirmed": 1.0,
+      "delivered": 2.0
+    },
+    "cosmetic_fees_usd": {
+      "lead": 0.5,
+      "confirmed": 2.0,
+      "delivered": 3.0
+    },
+    "source_tariff_url": "https://cdn.codpartner.com/assets/files/%5BCODPARTNER%5D%20Tariff%20guide%20-%202024.pdf",
+    "note": "Prices are estimates from the public 2024 tariff guide and require confirmation in the account before final publication."
+  }
 }
