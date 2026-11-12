@@ -1,68 +1,104 @@
 {
-  "schema_version": "1.0.0",
-  "last_updated": "2026-11-10",
-  "data_status": "DEMO_ONLY",
+  "schema_version": "1.1.0",
+  "last_updated": "2026-11-12",
+  "data_status": "CODPARTNER_CATALOG_PENDING",
+  "source_platform": "COD Partner",
+  "whatsapp_number": "967736015567",
   "categories": [
-    {
-      "id": "electronics",
-      "name": "إلكترونيات",
-      "description": "أجهزة وملحقات يومية"
-    },
-    {
-      "id": "home",
-      "name": "المنزل",
-      "description": "حلول عملية للبيت"
-    },
-    {
-      "id": "beauty",
-      "name": "العناية",
-      "description": "منتجات عناية شخصية"
-    },
-    {
-      "id": "travel",
-      "name": "السفر",
-      "description": "أساسيات الرحلات"
-    }
+    {"id": "electronics", "name": "إلكترونيات", "description": "ملحقات وأدوات تقنية يومية"},
+    {"id": "home", "name": "المنزل", "description": "حلول عملية للبيت والرحلات"},
+    {"id": "beauty", "name": "العناية", "description": "منتجات عناية وتجميل غير طبية"}
   ],
   "products": [
     {
-      "id": "demo-wireless-headphones",
-      "name": "سماعة لاسلكية — مثال",
-      "store": "متجر تجريبي",
+      "id": "codpartner-hidden-2in1-cable",
+      "name": "كابل شحن مخفي 2 في 1",
+      "store": "COD Partner",
       "category_id": "electronics",
       "category_name": "إلكترونيات",
-      "description": "سجل تجريبي لتوضيح شكل بطاقة المنتج. لا يمثل عرضاً حقيقياً.",
+      "description": "كابل شحن 2 في 1 كما يظهر في كتالوج COD Partner. السعر النهائي والتوفر ورسوم الشحن تحتاج تأكيداً قبل الطلب.",
       "price": null,
-      "currency": "SAR",
+      "base_price_usd": 2.99,
+      "currency": "USD",
       "affiliate_url": "#",
-      "last_checked": null,
-      "demo": true
+      "source_url": "https://codpartner.com/affiliate",
+      "image_url": "https://cdn.codpartner.com/storage/images/products/1780913842_by_57479_Capturedcran20260608111157_png.webp",
+      "available_countries": ["SA"],
+      "published": false,
+      "last_checked": "2026-11-12",
+      "demo": false
     },
     {
-      "id": "demo-organizer",
-      "name": "منظم مكتب — مثال",
-      "store": "متجر تجريبي",
+      "id": "codpartner-magnetic-phone-holder",
+      "name": "حامل هاتف مغناطيسي",
+      "store": "COD Partner",
+      "category_id": "electronics",
+      "category_name": "إلكترونيات",
+      "description": "حامل هاتف مغناطيسي كما يظهر في كتالوج COD Partner. لا يمثل السعر الأساسي السعر النهائي للعميل.",
+      "price": null,
+      "base_price_usd": 4.99,
+      "currency": "USD",
+      "affiliate_url": "#",
+      "source_url": "https://codpartner.com/affiliate",
+      "image_url": "https://cdn.codpartner.com/storage/images/products/1780934074_by_57479_Capturedcran20260608164528_png.webp",
+      "available_countries": ["SA"],
+      "published": false,
+      "last_checked": "2026-11-12",
+      "demo": false
+    },
+    {
+      "id": "codpartner-electric-hair-brush",
+      "name": "فرشاة فرد الشعر الكهربائية",
+      "store": "COD Partner",
+      "category_id": "beauty",
+      "category_name": "العناية",
+      "description": "فرشاة فرد شعر كهربائية كما تظهر في كتالوج COD Partner. الوصف لا يقدم ادعاءً طبياً أو نتيجة مضمونة.",
+      "price": null,
+      "base_price_usd": 7.99,
+      "currency": "USD",
+      "affiliate_url": "#",
+      "source_url": "https://codpartner.com/affiliate",
+      "image_url": "https://cdn.codpartner.com/storage/images/products/1781605376_by_57479_H95071ceda52a415e9bc2a78f3602abf46_jpg.webp",
+      "available_countries": ["SA", "OM"],
+      "published": false,
+      "last_checked": "2026-11-12",
+      "demo": false
+    },
+    {
+      "id": "codpartner-head-lamp",
+      "name": "مصباح الرأس",
+      "store": "COD Partner",
       "category_id": "home",
       "category_name": "المنزل",
-      "description": "بيانات توضيحية فقط. استبدلها بمعلومة مصدرها موثق قبل النشر.",
+      "description": "مصباح رأس كما يظهر في كتالوج COD Partner، ومتوفر للسعودية حسب العلامة الظاهرة في الحساب.",
       "price": null,
-      "currency": "SAR",
+      "base_price_usd": 4.99,
+      "currency": "USD",
       "affiliate_url": "#",
-      "last_checked": null,
-      "demo": true
+      "source_url": "https://codpartner.com/affiliate",
+      "image_url": "https://cdn.codpartner.com/storage/images/products/1782831425_by_57479_Screenshot20240319102743_png.webp",
+      "available_countries": ["SA", "OM"],
+      "published": false,
+      "last_checked": "2026-11-12",
+      "demo": false
     },
     {
-      "id": "demo-travel-bag",
-      "name": "حقيبة سفر — مثال",
-      "store": "متجر تجريبي",
-      "category_id": "travel",
-      "category_name": "السفر",
-      "description": "قالب منتج قابل للتحديث من دون اختراع سعر أو رابط إحالة.",
+      "id": "codpartner-hair-color-shampoo",
+      "name": "شامبو صبغ الشعر",
+      "store": "COD Partner",
+      "category_id": "beauty",
+      "category_name": "العناية",
+      "description": "شامبو صبغ الشعر كما يظهر في كتالوج COD Partner. يجب مراجعة المكونات وتعليمات الاستخدام قبل التسويق.",
       "price": null,
-      "currency": "SAR",
+      "base_price_usd": 4.99,
+      "currency": "USD",
       "affiliate_url": "#",
-      "last_checked": null,
-      "demo": true
+      "source_url": "https://codpartner.com/affiliate",
+      "image_url": "https://cdn.codpartner.com/storage/images/products/1772614696_by_57479_Screenshot20260304084906_png.webp",
+      "available_countries": ["SA"],
+      "published": false,
+      "last_checked": "2026-11-12",
+      "demo": false
     }
   ]
 }
